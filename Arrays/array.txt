@@ -1,0 +1,14 @@
+Operation on array --- 
+
+
+Insert : O(n)
+Search : O(n) for unsorted array 
+         O(log n) for sorted array
+
+Delete : O(n)
+
+Insert at i-th element : O(1)
+Update at i-th element : O(1)
+
+Note -: Insert at the end and delete from the end can 
+        be done in O(1) time.
