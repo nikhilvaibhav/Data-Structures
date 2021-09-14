@@ -1,6 +1,6 @@
 public class squareRoot{
     public static void main(String[] args) {
-        int number = 8;
+        int number = 9;
         System.out.print(root(number));
     }
 
@@ -14,7 +14,7 @@ public class squareRoot{
 
         while(start <= end){
             int mid = start + (end - start)/2;
-            if(mid > number/mid){
+            if(mid * mid > number){
                 end = mid - 1;
             }
             else{
