@@ -17,7 +17,7 @@ public class isPower{
             return true;
         }
 
-        if (num % 2 == 1){
+        if (num % 2 != 0){
             return false;
         }
         return isPower(num/2);
