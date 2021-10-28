@@ -5,23 +5,21 @@ public class MultipleLinearSearch{
         int arr[] = {1,2,3,4,5,4};
         int n = arr.length;
         int target = 4;
-        search(arr, n, target);
-        Collections.reverse(list);
-        System.out.println(list);
+        System.out.print(search(arr, n, target, new ArrayList<>()));
+        
     }
     
-    static ArrayList<Integer> list = new ArrayList<>();
     
-    static void search(int[] arr, int n, int target) {
+    static ArrayList<Integer> search(int[] arr, int n, int target, ArrayList<Integer> list) {
 
         if (n == 0) {
-            return;
+            return list;
         }
 
         if(arr[n - 1] == target) {
             list.add(n - 1);
         }
 
-        search(arr, n - 1, target);
+        return search(arr, n - 1, target, list);
     }
 }
