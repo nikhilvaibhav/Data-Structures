@@ -1,21 +1,20 @@
 public class StringFilter{
     public static void main(String[] args){
-        String str = "nikhil";
-        int i=0;
-        String res = "";
-        System.out.println(sort(str, i, res));
+        sort("", "nikhil");
     }
 
-    static String sort(String str, int i, String res) {
-        if(i == str.length()){
-            return res;
+    static void sort(String p,  String up){
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
         }
-        if(str.charAt(i) == 'i'){
-            return sort(str, i+1, res);
+
+        char ch = up.charAt(0);
+        if(ch == 'i'){
+            sort(p, up.substring(1));
         }
         else{
-            res = res + str.charAt(i);
-            return sort(str, i+1, res);
+            sort(p+ch, up.substring(1));
         }
     }
 }
