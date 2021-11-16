@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concatenation",
+            "request": "launch",
+            "mainClass": "Concatenation",
+            "projectName": "Data Structure and algo_49c47ca6"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodPair",
+            "request": "launch",
+            "mainClass": "GoodPair",
+            "projectName": "Data Structure and algo_49c47ca6"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray",
+            "request": "launch",
+            "mainClass": "MaximumSubarray",
+            "projectName": "Data Structure and algo_49c47ca6"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationArray",
+            "request": "launch",
+            "mainClass": "PermutationArray",
+            "projectName": "Data Structure and algo_49c47ca6"
+        }
+    ]
+}
