@@ -7,7 +7,7 @@ class Node{
      }
 }
 
-public class AddTwoNumber2{
+public class AddTwoNumber2{                                 
     public static void main(String[] args){
         Node head1 = new Node(7);
         head1.next = new Node(2);
@@ -82,8 +82,6 @@ public class AddTwoNumber2{
             head3.next = new_node;
             head3 = head3.next;
         }
-
-
         return reverse(dummy_node.next);
     }
 }

@@ -43,7 +43,7 @@ public class RemoveFromEnd{
         Node slow = dummy_node;
         Node fast = dummy_node;
 
-        for(int i=1; i<=pos + 1; i++){
+        for(int i=0; i<pos + 1; i++){
             fast = fast.next;
         }
 
