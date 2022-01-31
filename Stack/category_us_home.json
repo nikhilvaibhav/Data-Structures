@@ -1,0 +1,134 @@
+{
+    "id": "categories_grid",
+    "dataType": "TYPE_CATEGORY_GRID",
+    "data": [
+        {
+            "label": "Men",
+            "categories": [
+                {
+                    "label": "Browse Eyeglasses",
+                    "type": "eyeglasses",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/Eyeglasses2x.jpg",
+                    "id": "eyeglasses_men_grid",
+                    "aspectRatio": "SQUARE",
+                    "url": "lenskart://www.lenskart.com/category/7112"
+                },
+                {
+                    "label": "Browse Computer Glasses",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/ComputerGlasses2x.jpg",
+                    "type": "safety eyeglasses",
+                    "url": "https://www.lenskart.com/category/7112",
+                    "aspectRatio": "SQUARE",
+                    "id": "computer_eyeglasses_men_grid"
+                },
+                {
+                    "type": "Best Sellers",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/bestseller.jpg",
+                    "id": "reading_men_grid",
+                    "url": "https://www.lenskart.com/category/8416",
+                    "aspectRatio": "SQUARE",
+                    "label": "Best Sellers"
+                },
+                {
+                    "type": "sunglasses",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/Sunglasses2x.jpg",
+                    "url": "https://www.lenskart.com/category/4062",
+                    "aspectRatio": "SQUARE",
+                    "label": "Browse Sunglasses",
+                    "id": "sunglasses_men_grid"
+                },
+                {
+                    "aspectRatio": "SQUARE",
+                    "url": "lenskart://www.lenskart.com/ar_listing?filter_product_type=Eyeglasses",
+                    "type": "AR Listing",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Sep21/newApp.jpg",
+                    "id": "virtual_ar_men_grid"
+                },
+                {
+                    "label": "Browse New Arrivals",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Sep21/new3.jpg",
+                    "aspectRatio": "SQUARE",
+                    "type": "New Arrivals",
+                    "id": "new_arrivals_men_grid",
+                    "url": "https://www.lenskart.com/category/8416"
+                }
+            ],
+            "type": "men"
+        },
+        {
+            "type": "women",
+            "label": "Women",
+            "categories": [
+                {
+                    "type": "eyeglasses",
+                    "url": "https://www.lenskart.com/category/7112",
+                    "id": "eyeglasses_men_grid",
+                    "aspectRatio": "SQUARE",
+                    "label": "Browse Eyeglasses",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/Eyeglasses2x.jpg"
+                },
+                {
+                    "label": "Browse Computer Glasses",
+                    "aspectRatio": "SQUARE",
+                    "id": "computer_eyeglasses_men_grid",
+                    "type": "safety eyeglasses",
+                    "url": "https://www.lenskart.com/category/7112",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/ComputerGlasses2x.jpg"
+                },
+                {
+                    "aspectRatio": "SQUARE",
+                    "id": "reading_men_grid",
+                    "label": "Best Sellers",
+                    "url": "https://www.lenskart.com/category/8416",
+                    "type": "Best Sellers",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/bestseller.jpg"
+                },
+                {
+                    "label": "Browse Sunglasses",
+                    "url": "https://www.lenskart.com/category/4062",
+                    "aspectRatio": "SQUARE",
+                    "id": "sunglasses_men_grid",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/Sunglasses2x.jpg",
+                    "type": "sunglasses"
+                },
+                {
+                    "aspectRatio": "SQUARE",
+                    "id": "virtual_ar_men_grid",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Sep21/newApp.jpg",
+                    "type": "AR Listing",
+                    "url": "lenskart://www.lenskart.com/ar_listing?filter_product_type=Eyeglasses"
+                },
+                {
+                    "label": "Browse New Arrivals",
+                    "url": "https://www.lenskart.com/category/8416",
+                    "type": "New Arrivals",
+                    "id": "new_arrivals_men_grid",
+                    "aspectRatio": "SQUARE",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Sep21/new3.jpg"
+                }
+            ]
+        },
+        {
+            "label": "Kids",
+            "categories": [
+                {
+                    "aspectRatio": "SQUARE",
+                    "label": "Browse Kids Eyeglasses",
+                    "id": "eyeglasses_kids_grid",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/Jan21/16-Jan/kids/Eyeglasses2x.jpg",
+                    "type": "eyeglasses",
+                    "url": "https://www.lenskart.com/category/8415"
+                },
+                {
+                    "id": "zero_power_kids_grid",
+                    "label": "Kids Computer Glasses",
+                    "aspectRatio": "SQUARE",
+                    "type": "zero_power",
+                    "url": "https://www.lenskart.com/category/8415",
+                    "imageUrl": "https://static1.lenskart.com/media/desktop/img/3-June-21/Kids-ComputerGlasses-Icon.jpg"
+                }
+            ],
+            "type": "kids"
+        }
+    ]
+}
